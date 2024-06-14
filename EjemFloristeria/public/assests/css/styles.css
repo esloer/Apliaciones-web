@@ -1,0 +1,463 @@
+/* Variables de colores y fuentes */
+:root {
+    --primary-color: #FFD700; /* Color de resaltado */
+    --buttom-color: #FFFFFF; /* color letra del boton */
+    --text-color: #242424; /* Color del texto */
+    --font-titles: 'Jost Medium', sans-serif; /* Fuente para títulos */
+    --font-general: 'Jost ', sans-serif; /* Fuente general */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Color de sombra */
+    --transparent-white: rgba(255, 255, 255, 0.8); /* Blanco transparente */
+}
+
+body {
+    font-family: var(--font-general);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+h1,h2,h3,h4{
+    font-family: var(--font-titles);
+    font-weight: 500;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Sección 1: Entrega Hoy y Flores */
+.top-header .container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header .container .left-links-a{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+}
+
+.left-links,
+.right-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.left-links a,
+.right-icons a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.right-icons{
+    margin-left: 15px;
+}
+
+.right-icons a {
+    font-size: 18px;
+}
+
+.left-links a i,
+.right-icons a i {
+    margin-right: 5px;
+}
+
+
+
+/* Main navigation */
+.main-nav {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--shadow-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.main-nav a:hover {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.right-icon2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-icon2 a {
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+/* Sección 2: Peonías */
+.peonies {
+    background: url('../images/plantas.webp') no-repeat center center;
+    background-size: cover;
+    padding: 60px 20px;
+}
+
+.peonies .container {
+    width: 50%;
+    background-color: var(--transparent-white);
+    padding: 35px 50px;
+}
+
+.peonies h1 {
+    font-family: var(--font-titles);
+    font-size: 36px;
+    margin: 0 0 20px;
+    color: var(--text-color);
+}
+
+.peonies p {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: var(--text-color);
+}
+
+.peonies .btn {
+    background-color: var(--text-color);
+    color: var(--buttom-color);
+    padding: 10px 75px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Sección 3: Nuestra selección de ramos */
+.selection-flowers {
+    padding: 40px 20px;
+}
+
+.selection-flowers .container {
+    text-align: center;
+}
+
+.selection-flowers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.flower-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.flower-card img {
+    width: 100%;
+    margin-bottom: -48px;
+}
+
+.flower-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.flower-info span{
+    font-size: x-small;
+    font-weight: 100;
+}
+
+.selection-flowers .container .flower-grid .flower-card  h3 {
+    width: 100%;
+    position: relative;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 10px;
+    background-color: var(--transparent-white);
+    padding: 10px;
+    color: black;
+}
+
+.flower-info p {
+    font-size: 16px;
+}
+
+.flower-info .btn {
+    background-color: var(--text-color);
+    color: var(--buttom-color);
+    text-decoration: none;
+    padding: 6px 10px;
+}
+
+/* Sección 4: Nuestras Plantas */
+.our-plants {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.our-plants h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.our-plants img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.our-plants p {
+    font-size: 19.5px;
+}
+
+.our-plants .btn {
+    width: 760px;
+    background-color: rgba(0, 0, 0, 0.749);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Sección 5: Productos específicos */
+.product-selection .container {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.product-selection img {
+    width: 100%;
+    margin-bottom: -48px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.product-info span{
+    font-size: x-small;
+    font-weight: 100;
+}
+
+.product-selection .container .product-card h3 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 10px;
+    margin: 10px;
+    background-color: var(--transparent-white);
+    padding: 10px;
+    color: black;
+}
+
+.product-info p {
+    font-size: 16px;
+}
+
+.product-info .btn {
+    background-color: var(--text-color);
+    color: var(--buttom-color);
+    text-decoration: none;
+    padding: 6px 10px;
+}
+
+/* Sección 6: Flores para ocasiones especiales */
+.special-occasions {
+    padding: 40px 20px;
+    background-color:rgba(201, 199, 197, 0.493);
+    text-align: center;
+}
+
+.special-occasions h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.occasion-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.occasion-icon {
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 120px;
+}
+
+.occasion-icon img{
+    width: 70px;
+}
+
+.occasion-icon p {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.occasion-icon-1{
+    background-color: rgb(0, 229, 255);
+}
+
+.occasion-icon-2{
+    background-color: rgb(3, 223, 76);
+}
+
+.occasion-icon-3{
+    background-color: violet;
+}
+
+.occasion-icon-4{
+    background-color: yellow;
+}
+
+.occasion-icon-5{
+    background-color: orangered;
+}
+
+/* Sección 7: Pie de página */
+.main-footer {
+    padding: 40px 20px;
+    border-top: 1px solid var(--shadow-color);
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.payment-methods img {
+    width: 150px;
+}
+
+.payment-methods .confianza{
+    width: 40px;
+    margin-top: 10px;
+}
+
+/* Sección 8: Segundo pie de página */
+.bottom-footer {
+    padding: 20px 0;
+    border-top: 1px solid var(--shadow-color);
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter h4 {
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid var(--shadow-color);
+}
+
+.newsletter label {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    color: var(--buttom-color);
+    border: none;
+    cursor: pointer;
+}
+
+.bottom-footer p {
+    font-size: 9px;
+    margin-top: 20px;
+}
+
+.final-p{
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(193, 191, 191);
+}
+/* Estilo para pantallas grandes */
+@media (min-width: 993px) {
+    .flower-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-selection {
+        flex-direction: row;
+    }
+
+    .occasion-icons {
+        flex-direction: row;
+    }
+
+    .footer-sections {
+        flex-direction: row;
+    }
+}
