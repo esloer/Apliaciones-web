@@ -1,0 +1,75 @@
+[
+    {
+        "id":1,
+        "title":"20.000 leguas en submarino",
+        "yearRelease": 1980,
+        "price":10,
+        "writers":[
+                {
+                    "name":"Jorge",
+                    "surname": "Fernández",
+                    "country":"Japan"
+                },
+                {
+                    "name":"Yamiri",
+                    "surname": "Sakajura",
+                    "country":"Japan"
+                }
+        ]
+
+    },
+    {
+        "id":2,
+        "title":"Narnia",
+        "yearRelease": 1995,
+        "price":10,
+        "writers":[
+                {
+                    "name":"Isaac",
+                    "surname": "Asimov",
+                    "country":"England"
+                }
+        ]
+
+    },
+    {
+        "id":3,
+        "title":"Harry Potter",
+        "yearRelease": 2000,
+        "price":30,
+        "writers":[
+                {
+                    "name":"Marta",
+                    "surname": "Salanova",
+                    "country":"Spain"
+                },
+                {
+                    "name":"Joanne",
+                    "surname": "Rowling",
+                    "country":"England"
+                }
+        ]
+
+    },
+    {
+        "id":4,
+        "title":"La casa de miedo",
+        "yearRelease": 1990,
+        "price":15,
+        "writers":[
+                {
+                    "name":"Maria",
+                    "surname": "Hernández",
+                    "country":"France"
+                },
+                {
+                    "name":"Marisa",
+                    "surname": "Salire",
+                    "country":"France"
+                }
+        ]
+
+    }
+
+
+]

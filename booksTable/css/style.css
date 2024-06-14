@@ -1,0 +1,34 @@
+body {
+    margin: 50px 10%;
+}
+#page{
+    margin: 0 auto;
+    padding:0 10%;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table td,
+table th {
+    border: solid 1px #cccccc;
+}
+
+tbody td {
+    padding: 30px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #4C8BF5;
+    color: #fff;
+}
+input {
+    margin-bottom: 10px;
+    width: 50%;
+    padding:6px;
+    border-radius: 5px;
+
+}
