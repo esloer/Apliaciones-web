@@ -1,0 +1,31 @@
+#container-comics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    row-gap: 35px;
+    padding: 20px;
+  }
+  .card{
+    min-width: 10vh;
+  }
+  .card-img-top{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .card-img-top:hover{
+    transform:matrix(1.05, 0, 0, 1.05, 0, -5);
+    transition: all 1s ease;
+  }
+
+  input{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    text-align: center;
+  }
