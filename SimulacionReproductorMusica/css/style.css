@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+section{
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+}
+
+img{
+    width: 290px;
+    height: 200px;
+}
+
+.no-visible{
+    visibility: hidden;
+}
+
+.container-info{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.info{
+    margin-left: 25px;
+}
+
+.info button{
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    padding: 5px 35px;
+    background-color: rgb(255, 53, 26);
+    cursor: pointer;
+}
+
+.info i:nth-child(6){
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: smaller;
+    padding: 5px;
+}
+
+.info span:nth-child(7){
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 2px;
+    font-weight: 900;
+}
+
+i{
+    cursor: pointer;
+}
+
+.bus{
+    text-align: center;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding:5px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -175px;
+    color: black;
+
+}
+
+.oculto{
+    display: none;
+}
+
+.favorito{
+    color: crimson;
+}
+
+table{
+    width: 100%;
+    background-color: black;
+    border-collapse: collapse;
+}
+
+th, td{
+    cursor: default;
+    color: white;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+table tr{
+    border-bottom: 1px solid white;
+}
+
+table tr:last-child{
+    border-bottom: none;
+}
+
+td{
+    text-align: center;
+}
+
+tr:hover{
+    color: green;
+    background-color: grey;
+}
+
+thead tr:hover{
+    background-color: black;
+}
+
+tr:hover td{
+    color: rgb(2, 240, 2);
+}

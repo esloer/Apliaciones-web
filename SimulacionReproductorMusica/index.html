@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/app.js"defer></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/2d40b95e3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="container-info" class="container-info">
+                <div class="img-info no-visible"><img class="imagen-cancion" id="imagen-cancion" src="" alt=""></div>
+                <div class="info">
+                    <p>LISTA</p>
+                    <h1>Momento Acústico</h1>
+                    <p>Temas tranquis para cualquier momento del día.</p>
+                    <p>Creada por <span>Spotify</span> · <span id="totalCanciones"></span> canciones, <span class="duracionTotal" id="duracionTotal"></span></p>
+                    <button class="boton-parar no" onclick="parar()"><i class="fa-solid fa-stop"></i></button>
+                </div>
+            </div>
+            <input type="text" name="" id="bus" class="bus" placeholder="Busca una canción"><i class="fa-solid fa-magnifying-glass"></i>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reproducir</th>
+                        <th>Favoritos</th>
+                        <th>Titulo</th>
+                        <th>Artista</th>
+                        <th>Álbum</th>
+                        <th><i class="fa-solid fa-calendar"></i> Fecha</th>
+                        <th><i class="fa-solid fa-clock"></i> Duración</th>
+                    </tr>
+                </thead>
+                <tbody id="container" class="tabla"></tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

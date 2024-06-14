@@ -1,0 +1,26 @@
+[
+    {
+        "img":"quimera.jpg",
+        "titulo":"Quimera",
+        "artista":"Alba Roche",
+        "album":"Quimera",
+        "fecha":"2021-01-04",
+        "duracion":"3:08"
+    },
+    {
+        "img":"fuentes.jpg",
+        "titulo":"Fuentes de Ortiz",
+        "artista":"Kenia OS",
+        "album":"Fuentes de ortiz",
+        "fecha":"2021-05-10",
+        "duracion":"2:59"
+    },
+    {
+        "img":"amorfina.jpg",
+        "titulo":"Amorfina",
+        "artista":"Marlon",
+        "album":"Amorfina",
+        "fecha":"2021-06-10",
+        "duracion":"2:25"
+    }
+]
